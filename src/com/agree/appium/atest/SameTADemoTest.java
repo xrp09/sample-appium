@@ -67,6 +67,10 @@ public class SameTADemoTest {
     el11.click();
     MobileElement el12 = (MobileElement) driver.findElementByAccessibilityId("TableView");
     el12.click();
+    
+    driver.findElementByLinkText("搜索");
+    
+    
     operate.swipeToUp(driver, 500, 2);
     operate.screenshot(driver);
 //    driver.closeApp();
